@@ -1,0 +1,114 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.like {
+    float: left;
+    padding-left: 2rem;
+    padding-top: 2rem;  
+}
+
+.dislike {
+    float: right;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.root {
+    padding-left: 200px;
+    width: 100%;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 1px;
+  color: white;
+}
+
+.App-left p {
+    color: white;
+}
+
+.post {
+    color: white;
+    width: 900px;
+    height: auto;
+    background: #222;
+    margin-top: 30px;
+    margin:auto;
+}
+
+.bottom-left-img {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.App-left {
+    float: left;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: auto;
+    background-color: #222;
+}
+
+.top-left-img{
+    height:100px;
+    width:160px;
+}
+.top-right-img{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.navbar-right { margin-right: 0px !important}
+.log {
+  margin: 5px 10px 0 0;
+}
+
+.active {
+  background-color: #0099FF;
+}
+
+.link {
+    color: white;
+}
+.link:hover {
+    color: white;
+}
+
+
+.list-group-item {
+ background-color: transparent !important;
+ border: 0px !important;
+}
