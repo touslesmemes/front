@@ -23,7 +23,7 @@ class Nav extends Component {
             <p>Channels :</p>
             <ul className="list-group">
               <li className="list-group-item">
-                <Link href="/" className="link" activeClassName="active">home</Link>
+                <Link href="/" className="link" activeClassName="active">My Memes</Link>
               </li>
               <li className="list-group-item">
                 <Link href="/user" className="link" activeClassName="active">user</Link>

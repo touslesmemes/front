@@ -19,12 +19,12 @@ class HomePage extends Component {
 
     return (
       <div>
-        
+
         <hr/>
         <div className="post">
           <i className="like fa fa-thumbs-o-up fa-2x" ></i>
           <i className="dislike fa fa-thumbs-o-down fa-2x" ></i>
-            <img src={pct} alt='Post'/>
+          <img src={pct} alt='Post'/>
         </div>
         <hr/>
 
