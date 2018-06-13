@@ -17,6 +17,7 @@ class Nav extends Component {
         <header className="App-header">
           <h1 className="App-title">Tous les Memes</h1>
           <a href=''><i className="top-right-img pull-right fa fa-bell fa-3x"></i></a>
+          <a href=''><i className="top-right-img pull-right fa fa-plus fa-3x"></i></a>
         </header>
         <div className="App-left">
             <img className="top-left-img" src={reece} alt='logo'/>
@@ -36,8 +37,32 @@ class Nav extends Component {
             <a href='/Setting'><i className="bottom-left-img fa fa-cog fa-3x"></i></a>
         </div>
 
+      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div className="modal-body">
+              ...
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
         <div id="root" className="root"></div>
       </div>
+
 
 
     );
